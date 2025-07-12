@@ -16,7 +16,7 @@ baseurl: ""
 # Optional extras
 lang: en
 icon: "⚛️"                              # emoji favicon (or replace with file in /assets/img/)
-keywords: jekyll, academic-website, portfolio-website
+keywords: [jekyll, academic-website, portfolio-website]
 
 footer_text: >                          # footer credits (edit or remove freely)
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with the
