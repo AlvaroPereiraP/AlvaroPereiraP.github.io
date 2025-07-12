@@ -2,21 +2,20 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: "Alvaro Pereira"                 # appears in browser tab
-author: "Alvaro Pereira"                # used in metadata
-remote_theme: alshedivat/al-folio@v0.5.3
+title: "Alvaro Pereira"
+author: "Alvaro Pereira"
+
+# Pull the al-folio remote theme (GitHub Pages safe-listed)
+remote_theme: "alshedivat/al-folio@v0.5.3"
 plugins:
-  - jekyll-remote-theme
-description: >                          # multi-line string
+  - jekyll-remote-theme        # <-- must be indented two spaces
+
+description: >-
   Assistant Professor of Law | Corporate Law, Venture Capital & Capital-Markets Research.
-  A simple whitespace theme for academics.
-skin: sage                              # colour palette: sage, mint, teal, amethyst…
 
-# Basic URLs (leave baseurl blank because the site is at the root)
-url: "https://alvaropereira.org"
-baseurl: ""
-
-# Optional extras
+# Put your temporary URL until the domain is live
+url: "https://alvaropereirap.github.io"
+baseurl: ""                    # root
 lang: en
 icon: "⚛️"                              # emoji favicon (or replace with file in /assets/img/)
 keywords: [jekyll, academic-website, portfolio-website]
