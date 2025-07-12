@@ -4,6 +4,9 @@
 
 title: "Alvaro Pereira"                 # appears in browser tab
 author: "Alvaro Pereira"                # used in metadata
+remote_theme: alshedivat/al-folio@v0.5.3
+plugins:
+  - jekyll-remote-theme
 description: >                          # multi-line string
   Assistant Professor of Law | Corporate Law, Venture Capital & Capital-Markets Research.
   A simple whitespace theme for academics.
